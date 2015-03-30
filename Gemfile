@@ -17,6 +17,8 @@ gem 'high_voltage'
 gem 'pg'
 gem 'therubyracer', :platform=>:ruby
 gem 'thin'
+gem 'rtlize', :git => 'git://github.com/maljub01/RTLize.git', :branch => 'master'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]

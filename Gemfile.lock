@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/maljub01/RTLize.git
+  revision: ffe034dbc40895d90808bb51d794adaa13545b11
+  branch: master
+  specs:
+    rtlize (0.2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -345,6 +352,7 @@ DEPENDENCIES
   rb-fsevent
   rb-inotify
   rspec-rails
+  rtlize!
   rubocop
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
